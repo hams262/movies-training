@@ -1,13 +1,13 @@
 $mainColor:#d1cbcbfc;
 $childeColor:#0d0f1c;
-body
-{
+
+body {
   background-color: $childeColor;
   color: $mainColor
 }
+
 /*Start slider*/
-.slider
-{
+.slider {
   background: url("../imgs/IMG-20210716-WA0022.jpg");
   height: 100vh;
   -webkit-background-size: cover;
@@ -18,12 +18,12 @@ body
   margin-top: 50px;
   padding-top: 100px
 }
-.slider img
-{
+
+.slider img {
   border-radius: 5px
 }
-.slider .kind button
-{
+
+.slider .kind button {
   color: #000;
   background-color: #fff;
   border: none;
@@ -31,86 +31,86 @@ body
   padding: 5px 15px;
   font-weight: bold;
 }
-.slider .key
-{
+
+.slider .key {
   margin-top: 50px
 }
-.slider .key button
-{
-    border-radius: 20px;
-    border: none;
-    color: #fff;
-    display: block;
-    margin: 15px;
+
+.slider .key button {
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  display: block;
+  margin: 15px;
 }
-.slider .key button:first-child
-{
+
+.slider .key button:first-child {
   background-color: #ff9800;
   padding: 7px 20px;
 }
-.slider .key button:nth-child(2)
-{
+
+.slider .key button:nth-child(2) {
   background-color: #03a9f4;
   padding: 6px 20px
 }
-.slider .key button:nth-child(3)
-{
+
+.slider .key button:nth-child(3) {
   background: #b0a8a840;
   padding: 7px 20px
 }
-.slider .key button:first-child i
-{
+
+.slider .key button:first-child i {
   margin-left: 80px
 }
-.slider .key button:nth-child(2) i
-{
+
+.slider .key button:nth-child(2) i {
   margin-left: 63px
 }
-.slider .key button:nth-child(3) i
-{
+
+.slider .key button:nth-child(3) i {
   margin-left: 90px
 }
-.slider .i i
-{
-    margin-top: 150px;
-    margin-left: 40px;
-    border-radius: 50%;
-    padding: 10px;
-    color: #fff;
-    cursor: pointer;
+
+.slider .i i {
+  margin-top: 150px;
+  margin-left: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
 }
-.slider .i i:last-of-type
-{
+
+.slider .i i:last-of-type {
   background-color: #df0e0e;
 }
-.slider .i i:first-of-type
-{
+
+.slider .i i:first-of-type {
   background-color: #15a21b;
 }
+
 /*End slider*/
 
 /*Start story*/
-.story
-{
+.story {
   margin-top: 100px
 }
+
 /*End story*/
 
 /*Start download*/
-.download h3
-{
+.download h3 {
   margin-bottom: 25px;
   margin-top: 100px
 }
-.download mark
-{
+
+.download mark {
   padding: 10px 20px;
-  border:none;
+  border: none;
   border-radius: 5px;
   font-weight: bold;
 }
-.tabs
-{
+
+.tabs {
   display: flex;
   list-style: none !important;
   background-color: #1c203d;
@@ -118,125 +118,126 @@ body
   padding: 0px;
   margin: 0;
 }
-.tabs li
-{
+
+.tabs li {
   padding: 10px 40px;
-  background-color:#f00 ;
+  background-color: #f00;
   border-radius: 20px;
   cursor: pointer;
   transition: 0.2s;
   margin: 10px
 }
-.tabs li:first-child
-{
+
+.tabs li:first-child {
   background-color: #ff9800
 }
-.tabs li:last-child
-{
+
+.tabs li:last-child {
   background-color: #03a9f4
 }
-.content
-{
+
+.content {
   margin-top: 50px
 }
-.content a
-{
+
+.content a {
   background-color: #1c203d;
   padding: 20px;
   color: $mainColor;
-  margin:0px;
+  margin: 0px;
   border-left: 1px solid $childeColor;
 }
-.content .one a:hover
-{
+
+.content .one a:hover {
   color: #ff9800;
   text-decoration: none
 }
-.content .one a
-{
+
+.content .one a {
   border-bottom: 1px solid #ff9800
 }
-.content .two a:hover
-{
+
+.content .two a:hover {
   color: #03a9f4;
   text-decoration: none
 }
-.content .two a
-{
+
+.content .two a {
   border-bottom: 1px solid #03a9f4
 }
-.content > div
-{
+
+.content>div {
   padding: 20px 0px;
   display: none
 }
+
 /*End download*/
 
 
 /*Start sidelines*/
-.silelines h3
-{
+.silelines h3 {
   margin-top: 100px;
   margin-bottom: 30px
 }
-.silelines p
-{
+
+.silelines p {
   line-height: 1.8
 }
+
 /*End sidelines*/
 
 /*Start comment*/
-.comments
-{
+.comments {
   margin-top: 100px
 }
-.comments a
-{
+
+.comments a {
   color: #e17215
 }
+
 /*End comment*/
 
 /*Start footer*/
-.footer .container:before{
-    content:'';
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: $mainColor;
-    margin: 50px 0px;
-    margin-top: 100px
+.footer .container:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: $mainColor;
+  margin: 50px 0px;
+  margin-top: 100px
 }
-.footer
-{
+
+.footer {
   text-align: center;
 }
-.footer i
-{
+
+.footer i {
   border: 1px solid $mainColor;
   padding: 10px;
   border-radius: 50%;
   margin: 5px
 }
-.footer p
-{
+
+.footer p {
   margin: 50px 0px
 }
+
 /*End footer*/
 
 
 /*Start nicescroll*/
-.nicescroll-cursors
-{
+.nicescroll-cursors {
   background-color: $mainColor !important;
   border: none !important
 }
+
 /*End nicescroll*/
 
-#scroll-top
-{
+#scroll-top {
   position: fixed;
   bottom: 10px;
-  right:10px;
+  right: 10px;
   background-color: #fff;
   color: $childeColor;
   padding: 5px;
